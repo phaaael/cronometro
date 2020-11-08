@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(53, 53, 53);
+  --primary-color-darker: rgb(35, 35, 35);
+  --background-color: rgb(128, 128, 128);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.others button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin: -1px;
+  margin-top: 30px;
+}
+
+.main button:hover {
+  background: var(--primary-color-darker);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.clock {
+  font-size: 3em;
+  text-align: center;
+}
+
+.paused {
+  color: rgba(171, 0, 0, 0.626);
+  text-decoration: line-through;
+}
