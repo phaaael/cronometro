@@ -1,13 +1,12 @@
 # Cronômetro
 
-## Lembrete: É um desafio do meu curso, pretendo melhorar ele.
+## Lembrete: Foi um desafio do curso.
 
  **Recursos:**
  - Iniciar.
  - Pausar.
  - Zerar.
  - Adicionar mais alguns segundos fixos.
- - Mais recursos em breve.
  
  **Preview:**
  
