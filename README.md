@@ -7,4 +7,4 @@
  - Pausar.
  - Zerar.
  - Adicionar mais alguns segundos fixos.
- - + Recursos embreve.
+ - ++Recursos embreve.
