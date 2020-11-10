@@ -17,7 +17,6 @@ function clock() {
 
   document.addEventListener('click', function(event) {
     const el = event.target;
-    console.log(el)
 
     if (el.classList.contains('reset')) {
       clearInterval(timer);
@@ -56,6 +55,13 @@ function clock() {
         clock.innerHTML = getTimeFromSeconds(seconds + 30)
       }
       seconds = seconds + 30
+    }
+
+    if(el.classList.contains('fortyfiveMore')) {
+      if(clock.innerHTML = '00:00:00') {
+        clock.innerHTML = getTimeFromSeconds(seconds + 45)
+      }
+      seconds = seconds + 45
     }
   });
 }

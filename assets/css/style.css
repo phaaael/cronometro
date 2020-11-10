@@ -50,7 +50,7 @@ body {
   font-size: 12px;
   font-weight: 700;
   height: 30px;
-  width: 50px;
+  width: 70px;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
@@ -59,6 +59,10 @@ body {
 }
 
 .main button:hover {
+  background: var(--primary-color-darker);
+}
+
+.others button:hover {
   background: var(--primary-color-darker);
 }
 
