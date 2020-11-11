@@ -6,7 +6,7 @@
  - Iniciar.
  - Pausar.
  - Zerar.
- - Adicionar mais alguns segundos fixos.
+ - Adicionar mais alguns segundos __fixos__.
  - Adicionar quantos segundos quiser pelo __input__.
  
  **Preview:**
