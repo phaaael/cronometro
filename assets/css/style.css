@@ -58,6 +58,21 @@ body {
   margin-top: 30px;
 }
 
+.moreTime {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin: -1px;
+  margin-top: 30px;
+}
+
 .main button:hover {
   background: var(--primary-color-darker);
 }

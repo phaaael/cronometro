@@ -15,6 +15,16 @@ function clock() {
     }, 1000);
   }
 
+  document.addEventListener('keypress', function(event) {
+    let inputValue = document.getElementById('inputMoreTime').value
+    if(event.keyCode === 13) {
+      if(clock.innerHTML = '00:00:00') {
+        clock.innerHTML = getTimeFromSeconds(seconds + inputValue)
+      }
+      seconds = seconds + inputValue
+    }
+  })
+
   document.addEventListener('click', function(event) {
     const el = event.target;
 
