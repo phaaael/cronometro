@@ -6,8 +6,9 @@
  - Iniciar.
  - Pausar.
  - Zerar.
- - Adicionar mais alguns segundos fixos.
+ - Adicionar mais alguns segundos __fixos__.
+ - Adicionar quantos segundos quiser pelo __input__.
  
  **Preview:**
  
- ![Showcase](https://media.discordapp.net/attachments/503273624682233856/775549575615610880/unknown.png?width=1008&height=567)
+ ![Showcase](https://media.discordapp.net/attachments/503273624682233856/775963138511994910/unknown.png?width=1008&height=567)
