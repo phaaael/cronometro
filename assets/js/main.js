@@ -17,6 +17,9 @@ function clock() {
 
   document.addEventListener('keypress', function(event) {
     let inputValue = document.getElementById('inputMoreTime').value
+
+    if(!inputValue) return
+    
     if(event.keyCode === 13) {
       if(clock.innerHTML = '00:00:00') {
         clock.innerHTML = getTimeFromSeconds(seconds + inputValue)
