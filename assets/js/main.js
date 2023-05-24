@@ -15,21 +15,11 @@ function clock() {
     }, 1000);
   }
 
-  document.addEventListener('keypress', function(event) {
-    let inputValue = document.getElementById('inputMoreTime').value
-
-    if(!inputValue || inputValue < 0) return
-    
-    if(event.keyCode === 13) {
-      if(clock.innerHTML = '00:00:00') {
-        clock.innerHTML = getTimeFromSeconds(seconds + inputValue)
-      }
-      seconds = seconds + inputValue
-    }
-  })
-
   document.addEventListener('click', function(event) {
     const el = event.target;
+
+    let insert = document.querySelector('.insert').value
+    insert = Number(insert)
 
     if (el.classList.contains('reset')) {
       clearInterval(timer);
@@ -47,6 +37,13 @@ function clock() {
     if (el.classList.contains('stop')) {
       clearInterval(timer);
       clock.classList.add('paused');
+    }
+
+    if(el.classList.contains('send')) {
+      if(clock.innerHTML = '00:00:00') {    
+          console.log(clock.innerHTML = getTimeFromSeconds(seconds + insert))
+      }
+      seconds = seconds + insert
     }
 
     if(el.classList.contains('fiveMore')) {
